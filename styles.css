@@ -1,0 +1,81 @@
+body{background-color: #9bf2d8ff;}
+
+h1,h2,h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+p,h4,h5,h6,ul,td,th,a{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2,h3{color: rgb(61, 62, 62);}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(37, 255, 190);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+.titre{
+    height: 100headerh;
+    font-size: 2rem;
+}
+#icon{
+    height:100headerh;
+    width:100headerh;
+    border-radius: 10%;
+}
+header h2{margin-bottom:20px;}
+
+
+h4,p,ul{font-size: 1.25rem;}
+p{text-align:justify;}
+ul{margin:15px;}
+
+.titre-partie{font-size:2.5rem;}
+.titre-sous-partie{
+    font-size:1.5rem;
+    margin-bottom:15px;
+}
+
+#objectifs{
+    font-size:1.3rem;
+}
+.partie{
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.sous-partie{
+    margin:20px;
+    margin-bottom:40px;
+}
+
+th{
+    padding: 0 50px 30px 0;
+    font-size:1.5rem;
+    text-align:center;
+    border: 2px solid rgb(21, 146, 108);
+    background-color: rgb(176, 242, 222);
+}
+td{
+    padding: 0 50px 30px 0;
+    font-size:1.5rem;
+    text-align:center;
+    border: 2px solid rgb(100, 189, 162);
+    background-color: rgb(193, 250, 234);
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(194, 255, 237);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom:0;
+}
+.reseaux-contact{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
